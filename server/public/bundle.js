@@ -12578,10 +12578,19 @@ var App = function App() {
       { className: 'app-container' },
       _react2.default.createElement(
         'h1',
-        null,
-        'Hello World'
+        { className: 'title is-1' },
+        'Mana Archery Club'
       ),
-      _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Greetings2.default })
+      _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Greetings2.default }),
+      _react2.default.createElement(
+        'div',
+        null,
+        _react2.default.createElement(
+          'button',
+          null,
+          'Sign Up'
+        )
+      )
     )
   );
 };
@@ -12728,7 +12737,7 @@ var Greetings = function Greetings(_ref) {
       { onClick: function onClick() {
           return dispatch((0, _greetings.getGreetings)());
         } },
-      'Show Greetings'
+      'Greetings'
     ),
     greetings.map(renderGreeting)
   );
