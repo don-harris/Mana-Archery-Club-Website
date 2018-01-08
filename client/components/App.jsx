@@ -10,6 +10,7 @@ const App = () => (
     <div className='app-container'>
       <h1 className="title is-1">Mana Archery Club</h1>
       <Route path='/' component={Navbar} />
+      <hr/>
       <Route exact path='/' component={Homepage}/>
       <Footer />
     </div>

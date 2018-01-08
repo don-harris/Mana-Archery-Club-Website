@@ -10,9 +10,10 @@ class Latestnews extends React.Component {
 
   render () {
     return (
-      <div className="latestnews">
-        <h2>Latest News</h2>
-      </div>
+      <div className="tile is-child box">
+        <p className="title">Latest News</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+    </div>
     )
   }
 }

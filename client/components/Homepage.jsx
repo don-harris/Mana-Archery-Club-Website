@@ -4,11 +4,11 @@ import Latestnews from './Latestnews'
 import Latestevents from './Latestevents'
 
 const Homepage = () => (
-    <div className='columns'>
-      <div className='column'>
+    <div className='columns tile is-ancestor'>
+      <div className='column tile is-4 is-vertical is-parent'>
       <Latestnews/>
       </div>
-      <div className='column'>
+      <div className='column tile is-4 is-vertical is-parent'>
       <Latestevents/>
       </div>
     </div>
