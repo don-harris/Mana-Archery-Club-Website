@@ -12588,6 +12588,10 @@ var _Navbar = __webpack_require__(121);
 
 var _Navbar2 = _interopRequireDefault(_Navbar);
 
+var _Footer = __webpack_require__(273);
+
+var _Footer2 = _interopRequireDefault(_Footer);
+
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 var App = function App() {
@@ -12602,7 +12606,9 @@ var App = function App() {
         { className: 'title is-1' },
         'Mana Archery Club'
       ),
-      _react2.default.createElement(_reactRouterDom.Route, { path: '/', component: _Navbar2.default })
+      _react2.default.createElement(_reactRouterDom.Route, { path: '/', component: _Navbar2.default }),
+      _react2.default.createElement('hr', null),
+      _react2.default.createElement(_Footer2.default, null)
     )
   );
 };
@@ -28954,6 +28960,47 @@ module.exports = function(module) {
 	return module;
 };
 
+
+/***/ }),
+/* 273 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(6);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var Footer = function Footer(props) {
+  return _react2.default.createElement(
+    "div",
+    { className: "footer has-text-centered" },
+    _react2.default.createElement(
+      "h4",
+      null,
+      "\xA9 Mana Archery Club"
+    ),
+    _react2.default.createElement(
+      "h5",
+      null,
+      "About"
+    ),
+    _react2.default.createElement(
+      "h5",
+      null,
+      "Contact us"
+    )
+  );
+};
+
+exports.default = Footer;
 
 /***/ })
 /******/ ]);

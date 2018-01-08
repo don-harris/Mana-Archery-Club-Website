@@ -2,6 +2,7 @@ import React from 'react'
 import {BrowserRouter as Router, Route} from 'react-router-dom'
 
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 const App = () => (
   <Router>
@@ -12,6 +13,8 @@ const App = () => (
       <Route exact path='/' component={Latestevents} />      
       <Route exact path='/' component={Homephotos} />       */}
       {/* <Route path='/signup' component={Signup}/> */}
+      <hr/>
+      <Footer />
     </div>
   </Router>
 )
