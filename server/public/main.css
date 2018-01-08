@@ -1,0 +1,13 @@
+/* .latestnews {
+  float: left;
+}
+
+.latestevents {
+  float: right;
+} */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
