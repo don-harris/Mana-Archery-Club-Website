@@ -12613,6 +12613,7 @@ var App = function App() {
       _react2.default.createElement(_reactRouterDom.Route, { path: '/', component: _Navbar2.default }),
       _react2.default.createElement('hr', null),
       _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Homepage2.default }),
+      _react2.default.createElement('br', null),
       _react2.default.createElement(_Footer2.default, null)
     )
   );
@@ -12767,20 +12768,229 @@ var _Latestevents2 = _interopRequireDefault(_Latestevents);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// const Homepage = () => (
+//     <div className='columns tile is-ancestor'>
+//       {/* <div className='column tile is-4 is-vertical is-parent'>
+//       <Latestnews/>
+//       </div>
+//       <div className='column tile is-4 is-vertical is-parent'>
+//       <Latestevents/>
+//       </div> */}
+//     </div>
+// )
+
 var Homepage = function Homepage() {
   return _react2.default.createElement(
     'div',
-    { className: 'columns tile is-ancestor' },
+    null,
     _react2.default.createElement(
       'div',
-      { className: 'column tile is-4 is-vertical is-parent' },
-      _react2.default.createElement(_Latestnews2.default, null)
+      { className: 'tile is-ancestor' },
+      _react2.default.createElement(
+        'div',
+        { className: 'tile is-parent' },
+        _react2.default.createElement(
+          'article',
+          { className: 'tile is-child box notification is-primary' },
+          _react2.default.createElement(
+            'p',
+            { className: 'title' },
+            'Latest News'
+          ),
+          _react2.default.createElement(
+            'p',
+            { className: 'subtitle' },
+            '08/01/2017'
+          ),
+          _react2.default.createElement(
+            'p',
+            null,
+            'Happy New Year!'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'tile is-parent' },
+        _react2.default.createElement(
+          'article',
+          { className: 'tile is-child box' },
+          _react2.default.createElement(
+            'p',
+            { className: 'title' },
+            'Welcome to Mana Archery Club!'
+          ),
+          _react2.default.createElement(
+            'p',
+            { className: 'subtitle' },
+            'Here you can have a look around at some of the latest news and events. You can also see below photos of some of the recent events. If you are interested in joining our club please click the link.'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'tile is-parent' },
+        _react2.default.createElement(
+          'article',
+          { className: 'tile is-child box' },
+          _react2.default.createElement(
+            'p',
+            { className: 'title' },
+            'Latest Events'
+          ),
+          _react2.default.createElement(
+            'p',
+            { className: 'subtitle' },
+            'With some content'
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'content' },
+            _react2.default.createElement(
+              'p',
+              null,
+              'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.'
+            )
+          )
+        )
+      )
     ),
     _react2.default.createElement(
       'div',
-      { className: 'column tile is-4 is-vertical is-parent' },
-      _react2.default.createElement(_Latestevents2.default, null)
-    )
+      { className: 'tile is-ancestor' },
+      _react2.default.createElement(
+        'div',
+        { className: 'tile is-vertical is-8' },
+        _react2.default.createElement(
+          'div',
+          { className: 'tile' },
+          _react2.default.createElement(
+            'div',
+            { className: 'tile is-parent is-vertical' },
+            _react2.default.createElement(
+              'article',
+              { className: 'tile is-child box' },
+              _react2.default.createElement(
+                'p',
+                { className: 'title' },
+                'More news'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'subtitle' },
+                'Top box'
+              )
+            ),
+            _react2.default.createElement(
+              'article',
+              { className: 'tile is-child box' },
+              _react2.default.createElement(
+                'p',
+                { className: 'title' },
+                'More news'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'subtitle' },
+                'New to Archery?'
+              )
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'tile is-parent' },
+            _react2.default.createElement(
+              'article',
+              { className: 'tile is-child box' },
+              _react2.default.createElement(
+                'p',
+                { className: 'title' },
+                'Gallery'
+              ),
+              _react2.default.createElement(
+                'p',
+                { className: 'subtitle' },
+                'Palmerston North Nationals'
+              ),
+              _react2.default.createElement(
+                'figure',
+                { className: 'image is-4by3' },
+                _react2.default.createElement('img', { src: '/images/archery_web.jpg' })
+              )
+            )
+          )
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'tile is-parent' },
+          _react2.default.createElement(
+            'article',
+            { className: 'tile is-child box' },
+            _react2.default.createElement(
+              'p',
+              { className: 'title' },
+              'In your local community'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'subtitle' },
+              'Stuff happening in the area'
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'content' },
+              _react2.default.createElement(
+                'p',
+                null,
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.'
+              )
+            )
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'tile is-parent' },
+        _react2.default.createElement(
+          'article',
+          { className: 'tile is-child box notification is-info' },
+          _react2.default.createElement(
+            'div',
+            { className: 'content' },
+            _react2.default.createElement(
+              'p',
+              { className: 'title' },
+              'More events'
+            ),
+            _react2.default.createElement(
+              'p',
+              { className: 'subtitle' },
+              'Recent events and top scores'
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: 'content' },
+              _react2.default.createElement(
+                'p',
+                null,
+                'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.'
+              ),
+              _react2.default.createElement(
+                'p',
+                null,
+                'Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.'
+              )
+            )
+          )
+        )
+      )
+    ),
+    _react2.default.createElement('div', { className: 'tile is-ancestor' })
   );
 };
 

@@ -12,7 +12,7 @@ class Homephotos extends React.Component {
     return (
       <div className="tile is-child box">
         <p className="title">Gallery</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+        
     </div>
     )
   }

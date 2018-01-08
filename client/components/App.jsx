@@ -12,6 +12,7 @@ const App = () => (
       <Route path='/' component={Navbar} />
       <hr/>
       <Route exact path='/' component={Homepage}/>
+      <br/>
       <Footer />
     </div>
   </Router>
