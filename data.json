@@ -2,75 +2,48 @@
   "news": [
     {
       "id": 1,
-      "company": "Hallensteins",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/4/4a/Hallenstein_brothers_organisation_logo.gif",
-      "Deal": "3 Pairs of Jeans for $99",
-      "Buyers": "Only 1 buyer needed!",
-      "gender": "male"
+      "title": "Darton Archery Sign’s Sponsorship Agreement With The Bear Whisperer",
+      "story": "After many years of looking for the perfect bow, Blaine Anthony, producer and host of the Bear Whisperer TV show, seems to have finally found a home with Darton Archery."
     },
     {
       "id": 2,
-      "company": "Pagani",
-      "image": "https://www.richmondmall.co.nz/assets/Uploads/pagani.jpg",
-      "Deal": "Buy one get your 2nd sweater 50% off",
-      "Buyers": "Only 1 buyer needed!",
-      "gender": "female"
+      "title": "Horton Vortec RDX Feature Reverse Draw Technology, Easy Assembly",
+      "story": "Horton Crossbow Innovations’ unveiled its brand new Vortec RDX crossbow model at the 2017 ATA Show in Indianapolis, Indiana."
     },
     {
       "id": 3,
-      "company": "Barkers",
-      "image": "https://pbs.twimg.com/profile_images/508840441647603714/B4MMCq_V.jpeg",
-      "Deal": "2 Suit Jackets for $99",
-      "Buyers": "2 Buyers needed!",
-      "gender": "male"
+      "title": "Centerpoint Archery Expands Best-Selling, Award Winning Sniper Series",
+      "story": "Building on the success of the Sniper Crossbow, Centerpoint is now introducing an expanded package with even more value and performance at an extreme value."
     },
     {
       "id": 4,
-      "company": "Kimberleys",
-      "image": "http://remuera.org.nz/media/k2/items/cache/233826a67be66a810b23a263230da62e_XL.jpg",
-      "Deal": "Buy 2 dresses get 2 free scarves",
-      "Buyers": "Only 1 buyer needed!",
-      "gender": "female"
+      "title": "ATA Chooses Matt Kormann as President/CEO",
+      "story": "The Archery Trade Association has chosen Matt Kormann of Marietta, Georgia, as its next president/CEO after a nationwide executive search."
     },
     {
       "id": 5,
-      "company": "Good as Gold",
-      "image": "http://www.gagmagazine.com/wp-content/uploads/2014/06/cropped-GAGmagazine_Logo_Final_SocialMedia_WhiteOnBlack.jpg",
-      "Deal": "3 Sweaters for $99",
-      "Buyers": "3 Buyers Needed!",
-      "gender": "male"
+      "title": "Carbon Express Releaves Their New PileDriver 390 Crossbow",
+      "story": "When it comes to hunting with a crossbow, there’s no substitute for speed, as long as comfort, accuracy and shootability are not sacrificed in the process."
     },
     {
       "id": 6,
-      "company": "Witchery",
-      "image": "https://res-2.cloudinary.com/wlabs/image/fetch/c_pad,f_auto,q_auto/http://res.cloudinary.com/wlabs/image/upload/e47vzegi1dbeshkm0vyj.png",
-      "Deal": "2 Pleat Sleeve Trench coats for $149",
-      "Buyers": "Only 1 buyer needed!",
-      "gender": "female"
+      "title": "Gold Tip, Bee Stinger Shooter Wins Para-World Championship in Beijing",
+      "story": "Gold Tip and Bee Stinger Paralympic shooter Jeff Fabry recently won the 2017 World Archery Para Championships in Beijing, China."
     },
     {
       "id": 7,
-      "company": "Tarocash",
-      "image": "http://dfojindalee.com.au/wp-content/uploads/2017/02/TO0271-DFOSuitPromoSocial_Insta1080x1080_logo.jpg",
-      "Deal": "2 Short sleeve shirts for $90",
-      "Buyers": "2 Buyers needed!",
-      "gender": "male"
+      "title": "TenPoint Introduces Highly Efficient, Ultra-Light Eclipse RCX Crossbow",
+      "story": "TenPoint Crossbow Technologies’ introduced its new Eclipse RCX crossbow, their latest response to consumer preference for lighter, faster crossbows."
     },
     {
       "id": 8,
-      "company": "Glassons",
-      "image": "https://res-5.cloudinary.com/wlabs/image/fetch/c_pad,f_auto,q_auto/http://res.cloudinary.com/wlabs/image/upload/xgexemh2ymphjubo6k7f.png",
-      "Deal": "Blouses 2 for $45",
-      "Buyers": "Only 1 buyer needed!",
-      "gender": "female"
+      "title": "Browning Crossbows Expands Line in 2017",
+      "story": "The new OneSevenOne crossbow is the culmination of years of design and development."
     },
     {
       "id": 9,
-      "company": "I Love Ugly",
-      "image": "https://pbs.twimg.com/profile_images/695111528740057088/HtBmVwI2.jpg",
-      "Deal": "4 Tees For $90",
-      "Buyers": "4 Buyers needed!",
-      "gender": "male"
+      "title": "Bloodsport: Choosing Arrows and Broadheads has Never Been Easier",
+      "story": "New Bloodsport website makes hunting for information on arrows and broadheads fast and easy."
     }
   ]
 }

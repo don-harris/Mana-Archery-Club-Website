@@ -3,16 +3,7 @@ import React from 'react'
 import Latestnews from './Latestnews'
 import Latestevents from './Latestevents'
 
-// const Homepage = () => (
-//     <div className='columns tile is-ancestor'>
-//       {/* <div className='column tile is-4 is-vertical is-parent'>
-//       <Latestnews/>
-//       </div>
-//       <div className='column tile is-4 is-vertical is-parent'>
-//       <Latestevents/>
-//       </div> */}
-//     </div>
-// )
+import data from '../../data.json'
 
 const Homepage = () => (
 <div>
@@ -20,8 +11,8 @@ const Homepage = () => (
     <div className="tile is-parent">
       <article className="tile is-child box notification is-primary">
     <p className="title">Latest News</p>
-    <p className="subtitle">08/01/2017</p>
-    <p>Happy New Year!</p>
+    <p className="subtitle">{data.news[0].title}</p>
+    <p>{data.news[0].story}</p>
   </article>
 </div>
 <div className="tile is-parent">
@@ -40,7 +31,6 @@ const Homepage = () => (
   </article>
 </div>
 </div>
-
 <div className="tile is-ancestor">
 <div className="tile is-vertical is-8">
   <div className="tile">
@@ -90,26 +80,10 @@ const Homepage = () => (
 </div>
 
 <div className="tile is-ancestor">
-{/* <div className="tile is-parent">
-  <article className="tile is-child box">
-    <p className="title">Unknown</p>
-    <p className="subtitle">With some content</p>
-    <div className="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-    </div>
-  </article>
-</div> */}
-{/* <div className="tile is-parent is-8">
-  <article className="tile is-child box">
-    <p className="title">Unknown</p>
-    <p className="subtitle">With some content</p>
-    <div className="content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
-    </div>
-  </article>
-</div> */}
 </div>
 </div>
 )
+
+
 
 export default Homepage

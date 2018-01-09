@@ -1,10 +1,11 @@
 import React from 'react'
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import data from '../../data.json'
 
 const NavBar = (props) => {
+  console.log(data.news)
   return (
     <nav className="navbar" role="navigation" aria-label="main navigation">
-  
       <div className="navbar-item">
         <Link to='/'>
          Home
