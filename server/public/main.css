@@ -1,7 +1,13 @@
-body {
-  background-color: "blue";
+/* .latestnews {
+  float: left;
 }
 
-button {
-  background-color: "red";
+.latestevents {
+  float: right;
+} */
+
+.footer {
+  position: bottom;
+  bottom: 0;
+  width: 100%;
 }
