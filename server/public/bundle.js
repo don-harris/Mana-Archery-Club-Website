@@ -12778,6 +12778,10 @@ var _data2 = _interopRequireDefault(_data);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+function cycleNews() {
+  console.log(_data2.default.news);
+}
+
 var Homepage = function Homepage() {
   return _react2.default.createElement(
     'div',

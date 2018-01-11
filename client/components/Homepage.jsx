@@ -5,6 +5,11 @@ import Latestevents from './Latestevents'
 
 import data from '../../data.json'
 
+function cycleNews () {
+  console.log(data.news)
+  
+}
+
 const Homepage = () => (
 <div>
   <div className="tile is-ancestor">
@@ -83,7 +88,5 @@ const Homepage = () => (
 </div>
 </div>
 )
-
-
 
 export default Homepage
