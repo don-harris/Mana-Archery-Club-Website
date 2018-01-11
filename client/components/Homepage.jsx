@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 import Latestnews from './Latestnews'
 import Latestevents from './Latestevents'
@@ -86,6 +87,7 @@ const Homepage = () => (
 
 <div className="tile is-ancestor">
 </div>
+<button className="button is-primary"><Link to="/practice">Practice page</Link></button>
 </div>
 )
 

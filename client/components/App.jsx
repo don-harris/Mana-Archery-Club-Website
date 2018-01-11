@@ -3,6 +3,7 @@ import {BrowserRouter as Router, Route} from 'react-router-dom'
 
 import Navbar from './Navbar'
 import Homepage from './Homepage'
+import Practice from './Practice'
 import Footer from './Footer'
 
 const App = () => (
@@ -12,6 +13,7 @@ const App = () => (
       <Route path='/' component={Navbar} />
       <hr/>
       <Route exact path='/' component={Homepage}/>
+      <Route path='/practice' component={Practice}/>
       <br/>
       <Footer />
     </div>
