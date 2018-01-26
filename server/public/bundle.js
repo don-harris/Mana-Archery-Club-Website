@@ -13259,10 +13259,59 @@ exports.default = NavBar;
 
 /***/ }),
 /* 127 */
-/***/ (function(module, exports) {
+/***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-throw new Error("Module build failed: SyntaxError: Unexpected token (10:4)\n\n\u001b[0m \u001b[90m  8 | \u001b[39m   }\n \u001b[90m  9 | \u001b[39m   \u001b[90m// Dimensions of sunburst.\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 10 | \u001b[39m\u001b[36mvar\u001b[39m width \u001b[33m=\u001b[39m \u001b[35m750\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m    | \u001b[39m    \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 11 | \u001b[39m\u001b[36mvar\u001b[39m height \u001b[33m=\u001b[39m \u001b[35m600\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 12 | \u001b[39m\u001b[36mvar\u001b[39m radius \u001b[33m=\u001b[39m \u001b[33mMath\u001b[39m\u001b[33m.\u001b[39mmin(width\u001b[33m,\u001b[39m height) \u001b[33m/\u001b[39m \u001b[35m2\u001b[39m\u001b[33m;\u001b[39m\n \u001b[90m 13 | \u001b[39m\u001b[0m\n");
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+var _react = __webpack_require__(5);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var Practice = function (_React$Component) {
+  _inherits(Practice, _React$Component);
+
+  function Practice(props) {
+    _classCallCheck(this, Practice);
+
+    var _this = _possibleConstructorReturn(this, (Practice.__proto__ || Object.getPrototypeOf(Practice)).call(this, props));
+
+    _this.state = {};
+    return _this;
+  }
+
+  _createClass(Practice, [{
+    key: 'render',
+    value: function render() {
+      var width = 750;
+      var height = 600;
+      var radius = Math.min(width, height) / 2;
+
+      var b = {
+        w: 75, h: 30, s: 3, t: 10
+      };
+      return _react2.default.createElement('div', null);
+    }
+  }]);
+
+  return Practice;
+}(_react2.default.Component);
+
+exports.default = Practice;
 
 /***/ }),
 /* 128 */
