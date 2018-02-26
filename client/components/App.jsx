@@ -9,7 +9,7 @@ import Footer from './Footer'
 const App = () => (
   <Router>
     <div className='app-container'>
-      <h1 className="title is-1">Mana Archery Club</h1>
+      {/* <h1 className="title is-1">Mana Archery Club</h1> */}
       <div className="logo"><img src="./images/logo.bmp" /></div>
       <Route path='/' component={Navbar} />
       <hr/>

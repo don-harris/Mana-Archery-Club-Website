@@ -12616,11 +12616,6 @@ var App = function App() {
       'div',
       { className: 'app-container' },
       _react2.default.createElement(
-        'h1',
-        { className: 'title is-1' },
-        'Mana Archery Club'
-      ),
-      _react2.default.createElement(
         'div',
         { className: 'logo' },
         _react2.default.createElement('img', { src: './images/logo.bmp' })
