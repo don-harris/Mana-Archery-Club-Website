@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom'
 
 import Latestnews from './Latestnews'
 import Latestevents from './Latestevents'
+import Gallery from './Gallery'
 
 import data from '../../data.json'
 
@@ -55,7 +56,7 @@ const Homepage = () => (
         <p className="title">Gallery</p>
         <p className="subtitle">Palmerston North Nationals</p>
         <figure className="image is-4by3">
-          <img src="/images/archery_web.jpg"/>
+          <Gallery component={Gallery} />
         </figure>
       </article>
     </div>
